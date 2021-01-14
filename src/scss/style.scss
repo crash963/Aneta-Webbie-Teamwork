@@ -112,14 +112,30 @@ html {
   width: 93%;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: -100px;
+  margin-bottom: -7rem;
+  @media (max-width: 970px) {
+    margin-bottom: -4rem;
+    width: 100%;
+  }
+  @media (max-width: 500px) {
+    margin-bottom: -2rem;
+    width: 100%;
+  }
 }
 
 .circle {
   background-color: white;
-  width: 200px;
-  height: 200px;
+  width: 14rem;
+  height: 14rem;
   border-radius: 50%;
+  @media (max-width: 970px) {
+    width: 8rem;
+    height: 8rem;
+  }
+  @media (max-width: 500px) {
+    width: 4rem;
+    height: 4rem;
+  }
 }
 
 .section-2-text-box {
