@@ -31,7 +31,8 @@ html {
   @media (max-width: 650px) {
     flex-direction: column;
     font-size: 50px;
-    text-align: center;}
+    text-align: center;
+  }
 }
 
 .navigation-box {
@@ -106,6 +107,7 @@ html {
   margin-right: auto;
   @media (max-width: 650px) {
     width: 90%;
+    font-size: 1rem;
   }
 }
 
@@ -156,13 +158,6 @@ html {
   justify-content: space-evenly;
 }
 
-.section-2-headers-box {
-  font-size: 30px;
-  font-weight: 800;
-  color: #54be90;
-  margin-bottom: 5vh;
-}
-
 p {
   text-align: center;
 }
@@ -172,12 +167,32 @@ p {
   width: 91%;
   margin-right: auto;
   margin-left: auto;
+  margin-top: 2rem;
   padding-bottom: 8vh;
+  @media (max-width: 970px) {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  h3 {
+    font-size: 30px;
+    font-weight: 800;
+    color: #54be90;
+    margin-bottom: 5vh;
+    text-align: center;
+  }
 }
 
 .section-2-paragraphs {
   width: 15%;
   color: #ebebeb;
+  @media (max-width: 970px) {
+    width: 45%;
+    margin-bottom: 5rem;
+  }
+  @media (max-width: 500px) {
+    width: 90%;
+    font-size: 1rem;
+  }
 }
 
 .section-3 {
@@ -187,7 +202,8 @@ p {
   @media (max-width: 650px) {
     flex-direction: column;
     font-size: 50px;
-    text-align: center;}
+    text-align: center;
+  }
 }
 
 .section-3-heading {
@@ -203,7 +219,8 @@ p {
   @media (max-width: 650px) {
     flex-direction: column;
     font-size: 50px;
-    text-align: center;}
+    text-align: center;
+  }
 }
 
 .skill-box {
@@ -222,7 +239,8 @@ p {
   @media (max-width: 650px) {
     flex-direction: column;
     font-size: 25px;
-    text-align: center;}
+    text-align: center;
+  }
 }
 
 .skill-level {
@@ -230,7 +248,8 @@ p {
   @media (max-width: 650px) {
     flex-direction: column;
     font-size: 50px;
-    text-align: center;}
+    text-align: center;
+  }
 }
 
 .skill-level-empty {
