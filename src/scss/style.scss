@@ -360,6 +360,9 @@ p {
 .section-5 h2 {
   font-size: 60px;
   color: black;
+  @media (max-width: 500px) {
+    font-size: 2.5em;
+  }
 }
 
 .section-5-img-text-box {
@@ -368,18 +371,33 @@ p {
   justify-content: space-evenly;
   margin: 5vh auto 0 auto;
   width: 75%;
+  @media (max-width: 970px) {
+    width: 90%;
+  }
+  @media (max-width: 500px) {
+    width: 95%;
+    flex-direction: column;
+    align-items: center;
+  }
 }
 
 .section-5-img {
   background: url(/img/woman-4318229_640.jpg) center/cover no-repeat;
-  width: 450px;
-  height: 450px;
+  width: 25rem;
+  height: 25rem;
   border-radius: 50%;
+  @media (max-width: 970px) {
+    width: 15rem;
+    height: 15rem;
+  }
 }
 .section-5-paragraph {
   font-size: 20px;
   margin-top: 4%;
   text-align: left;
+  @media (max-width: 500px) {
+    font-size: 1em;
+  }
 }
 
 .section-5-text {
@@ -387,6 +405,11 @@ p {
   flex-direction: column;
   width: 50%;
   text-align: left;
+  @media (max-width: 500px) {
+    width: 90%;
+    flex-direction: column;
+    align-items: center;
+  }
 }
 
 .section-5-paragraph-underline {
@@ -395,6 +418,9 @@ p {
   border-color: #54be90;
   margin-top: 0;
   width: 60%;
+  @media (max-width: 500px) {
+    width: 100%;
+  }
 }
 
 .section-5 h4 {
